@@ -4,7 +4,7 @@ var outputDiv = document.querySelector("#description");
 var tempreature = document.getElementById("temp");
 var display_day = document.getElementById("day");
 
-var serverURL = "http://api.openweathermap.org/data/2.5/weather?q="
+var serverURL = "https://api.openweathermap.org/data/2.5/weather?q="
 
 function getTranslationURL(city) {
     return serverURL + city +"&appid=98ab434db99a4ec145c5515049e980fc";
