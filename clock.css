@@ -10,9 +10,11 @@ body    {
 h1{
 text-align: center;}
 input {
-text-align: center;
-font-family:'Noto Sans JP',sans-serif ;
-padding: 1rem;
+    text-align: center;
+    font-family: 'Noto Sans JP',sans-serif;
+    padding: 1rem;
+    border: 0;
+    border-radius: 40px;
 }
 
 #output {
@@ -53,10 +55,11 @@ width: 72%;}
         margin: 1em;
     }
     #btn-translate{
-    margin-left: inherit;
-    border-radius: 4px;
-    border: 0;
-    background-color:blueviolet;
+        padding: 20px;
+        margin-left: inherit;
+        border-radius: 32px;
+        border: 0;
+        background-color: blueviolet;
     }
     h4{
         color:#eeff92;
