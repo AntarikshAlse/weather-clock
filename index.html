@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts - noto sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="./clock.css" rel="stylesheet">
+    <title>Weather clock</title>
+</head>
+<body>
+
+    <h1>Weather clock</h1>
+
+    <div class="clock">
+        <section class="time-box">
+                <h4 id="day"></h4>
+                <h3 id="hours">Time</h3>
+        </section>
+        <p class="division">.....</p>
+        <h2 id="temp"></h2><br>
+        <section class="weather">
+                <p id ="description"></p>
+        </section>
+    </div>
+    <div class="input_fun">
+    <input id="txt-input" placeholder="City Name"></input>
+    <button id="btn-translate">GO</button>
+    </div>
+    <script src="clock.js"></script>
+</body>
+</html>

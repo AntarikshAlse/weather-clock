@@ -1,0 +1,77 @@
+body    {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-image: url(./sky.jpg);
+    /* full height */
+    height: 100%;
+    /* proper scaling */
+    /* background-position: center; */
+
+}
+h1{
+text-align: center;}
+input {
+text-align: center;
+font-family:'Noto Sans JP',sans-serif ;
+padding: 1rem;
+}
+
+#output {
+border: 1px solid black;
+height: 10vh;
+width: 80%;
+margin: 1rem;
+padding: 1rem;
+}
+.clock{
+display: flex;
+flex-direction: column;
+background-color: #42a5f5;
+text-align: center;
+border-radius: 32px;
+margin: auto;
+width: 72%;}
+
+    .time-box{
+        display: inline;
+        justify-content: center;
+        margin: auto .5em;
+        padding: .5em;
+        border-radius: 12px;
+    }
+    section{
+        display:flex;
+        justify-content: center;
+        margin: auto .5em;
+        padding: 1em;
+        border-radius: 12px;
+    }
+
+    .input_fun{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 1em;
+    }
+    #btn-translate{
+    margin-left: inherit;
+    border-radius: 4px;
+    border: 0;
+    background-color:blueviolet;
+    }
+    h4{
+        color:#eeff92;
+    }
+    h3{
+        align-content: center;
+        color:white;
+        
+    }
+    h2{
+        margin: 0;
+        font-size: 4em;
+        color: whitesmoke;
+    }
+    p{
+        color:white;
+        margin:0;
+    }
